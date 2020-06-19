@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class = "container">
+        <nav class ="navbar nav-expand-lg navbar-light bg-light">
+            <a class = "navbar-brand h1" href ="#">The News</a>
+            <button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#newsMenu" aria-controls="newsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>       
+            </button>
+            <div class ="collapse navbar-collapse" id="newsMenu">
+                <div class = "navbar-nav">
+                    <a class= "nav-item nav-link" herf="#">Home</a>
+                    <a class= "nav-item nav-link" herf="#">News</a>
+                    <a class= "nav-item nav-link" herf="#">Contact</a>
+                    <a class= "nav-item nav-link" herf="#">About</a>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-12">
+                <div class= "jumbotron">
+                    <h2 class="display-4">Get the latest news on trending topic.</h2>
+                    <hr class="my-4">
+                    <p>Subscribe for the latest news</p>
+                    <button type="button" class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class ="text-center">Headlines</h4>
+                <hr class="my-4">
+            </div>
+        </div>    
+
+        <div class= "row">
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class = "card">
+                    <img class= "card-img-top" src="https://images.unsplash.com/photo-1560956737-3428333ba83f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"> 
+                    <div class="card-body">
+                        <h5 class="card-title">News title</h5>
+                        <p class= "card-text">News description</p>
+                        <a href="#" class= "btn btn-danger">Read more </a>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class = "card">
+                    <img class= "card-img-top" src="https://images.unsplash.com/photo-1560956737-3428333ba83f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"> 
+                    <div class="card-body">
+                        <h5 class="card-title">News title</h5>
+                        <p class= "card-text">News description</p>
+                        <a href="#" class= "btn btn-danger">Read more </a>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class = "card">
+                    <img class= "card-img-top" src="https://images.unsplash.com/photo-1560956737-3428333ba83f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"> 
+                    <div class="card-body">
+                        <h5 class="card-title">News title</h5>
+                        <p class= "card-text">News description</p>
+                        <a href="#" class= "btn btn-danger">Read more </a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="data:image/jpeg;base64,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" class="img-fluid"> 
+            </div>
+            <div class="col-md-8">
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <h1>Drinking Coffee Can Boost Productivity</h1>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <p>Coffee is one of the world’s most popular beverages.
+
+                            Thanks to its high levels of antioxidants and beneficial nutrients, it also seems to be quite healthy.
+
+                            Studies show that coffee drinkers have a much lower risk of several serious diseases.
+
+                            For top 13 health benefits of coffee click below.
+                        </p> 
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <button class="btn btn-primary">Read More</button>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="data:image/jpeg;base64,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" class="img-fluid"> 
+            </div>
+            <div class="col-md-8">
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <h1>Drinking Coffee Can Boost Productivity</h1>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <p>Coffee is one of the world’s most popular beverages.
+
+                            Thanks to its high levels of antioxidants and beneficial nutrients, it also seems to be quite healthy.
+
+                            Studies show that coffee drinkers have a much lower risk of several serious diseases.
+
+                            For top 13 health benefits of coffee click below.
+                        </p> 
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <button class="btn btn-primary">Read More</button>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="data:image/jpeg;base64,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" class="img-fluid"> 
+            </div>
+            <div class="col-md-8">
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <h1>Drinking Coffee Can Boost Productivity</h1>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <p>Coffee is one of the world’s most popular beverages.
+
+                            Thanks to its high levels of antioxidants and beneficial nutrients, it also seems to be quite healthy.
+
+                            Studies show that coffee drinkers have a much lower risk of several serious diseases.
+
+                            For top 2 health benefits of coffee click below.
+                        </p> 
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class= "col-md-12">
+                        <button class="btn btn-primary">Read More</button>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+     
+
+</body>
+</html>
